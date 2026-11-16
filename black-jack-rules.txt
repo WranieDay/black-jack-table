@@ -90,9 +90,15 @@ Strategy Tips
     -   item to destroy a card 
     -   peak at next card pull
     -   peak at dealers face down card
-    - 
- 4) achivement pop up at chip thresh holds
+    
+4) achivement pop up at chip thresh holds
 
- 5) dealer dialogue deapending on the state of the game (ex)
+5) dealer dialogue deapending on the state of the game (ex)
     -   (close to bust) "you sure you wanna hit on that?"
     -   (beat dealer 3 times in a row) "On a hot streak I see"
+
+6) clear terminal every move for smooth transition
+
+7) Ascii art for table, cards, and dealer? (big if)
+
+8) trump cards, setting the goal value
