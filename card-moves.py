@@ -17,3 +17,13 @@ def card_value(card):
 def deck_values(card_deck):
     return [[card_value(card) for card in suit] for suit in card_deck]
 
+#pulling 2 random cards for player and dealer
+
+def starting_hand():
+    plr_starting_hand = []
+    for pulls in range(2):
+        suit = random.choice(card_deck)
+        pulled_card = random.choice(suit)
+        plr_starting_hand.append(pulled_card)
+    return plr_starting_hand
+plr_starting_hand = starting_hand()
