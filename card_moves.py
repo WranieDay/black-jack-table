@@ -1,4 +1,5 @@
 import random
+from usr_gameplay import hit, stand, hit_or_stand
 
 #making deck of cards
 Hearts = ['2 ♡', '3 ♡', '4 ♡', '5 ♡', '6 ♡', '7 ♡', '8 ♡', '9 ♡', '10 ♡', 'J ♡', 'Q ♡', 'K ♡', 'A ♡']
@@ -44,3 +45,4 @@ plr_hand_values = [card_value(card) for card in plr_starting_hand]
 dlr_hand_values = [card_value(card) for card in d_starting_hand]
 print('Your hand values:', plr_hand_values[0] + plr_hand_values[1])
 print('Dealer hand values:', dlr_hand_values[0] + dlr_hand_values[1])
+
