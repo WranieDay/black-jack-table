@@ -38,3 +38,9 @@ def dlr_starting_hand():
     return d_starting_hand
 d_starting_hand = dlr_starting_hand()
 print('Dealer hand:', ', '.join(d_starting_hand))
+
+#telling the value of each card in the players and dealers hand
+plr_hand_values = [card_value(card) for card in plr_starting_hand]
+dlr_hand_values = [card_value(card) for card in d_starting_hand]
+print('Your hand values:', plr_hand_values[0] + plr_hand_values[1])
+print('Dealer hand values:', dlr_hand_values[0] + dlr_hand_values[1])
